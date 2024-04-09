@@ -3,9 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
+  <title>CV Diego Alfaro Baez</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <h1>mi portafolio</h1>
+  <head>
+    <!-- menu superior -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h1>CV DAB</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Currículum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <main class="container-fluid contenido pb-3 pt-3">
+    <section class="fotoprincipal">
+      <!-- Foto y descripcion -->
+      <div class="row align-items-center">
+        <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-5 offset-md-1 col-lg-4 offset-lg-2">
+          <img src="assets/imgs/perfil.jpg" class="img-fluid" alt="foto perfil">
+        </div>
+        <div class="col-10 offset-1 col-sm-8 offset-sm-2 offset-md-0 col-md-5 col-lg-4">
+          <p class="text-center mt-3">
+            mi nombre es blah Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa culpa ducimus repudiandae officia fuga praesentium illo, assumenda aperiam voluptates libero sapiente distinctio esse hic deserunt unde corporis ea voluptas aliquid.
+          </p>
+          <p class="text-center">
+            mi nombre es blah Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa culpa ducimus repudiandae officia fuga praesentium illo, assumenda aperiam voluptates libero sapiente distinctio esse hic deserunt unde corporis ea voluptas aliquid.
+          </p>
+        </div>
+      </div>      
+    </section>
+
+
+    <section class="estudios">
+      <!-- estudios y experiencia -->
+      <div class="row mt-5 pt-4">
+        <div class="col">
+          <h2 class="text-center">Experiencia</h2>
+        </div>
+      </div>
+      <div class="row mt-1 justify-content-center">  
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 1
+          </div>
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 2
+          </div>
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 3
+          </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col">
+          <h2 class="text-center">Estudios</h2>
+        </div>
+      </div>
+      <div class="row mt-1 pb-4 justify-content-center">  
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 1
+          </div>
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 2
+          </div>
+          <div class="card p-3 m-1 col-10 col-sm-8 col-md-3">
+            tarjeta 3
+          </div>
+      </div>
+    </section>
+
+    <section class="intereses">
+      <!-- intereses y datos curiosos-->
+
+      <div class="row mt-5 pt-4 justify-content-center align-items-center">
+        <div class="col-10 col-sm-8 col-md-5 pb-4">
+          
+          <!-- carrusel -->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/imgs/yoga.jpg" class="d-block w-100 img_carrusel" alt="profesor de yoga">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/imgs/amazonas.jpg" class="d-block w-100 img_carrusel" alt="viajero">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/imgs/cocina.jpg" class="d-block w-100 img_carrusel" alt="cocinando">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+        <div class="col-10 col-sm-8 col-md-5">
+          <h2 class="text-center">Intereses</h2>
+          <p class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum necessitatibus dignissimos voluptates fugit aut autem consequatur? Nobis eos animi est quos quae optio ea fugit alias assumenda. At, nesciunt dolorum?</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="p-2 foot">
+    <p class="text-center">Contáctame en diego.alfaro.b@gmail.com</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

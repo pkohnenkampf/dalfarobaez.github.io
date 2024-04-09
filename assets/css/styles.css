@@ -1,0 +1,40 @@
+.img_carrusel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-item {
+    height: 15rem; /* Pantallas extra pequeñas (xs) */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .carousel-item {
+    height: 20rem; /* Pantallas pequeñas (sm) y medianas (md) */
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 25rem; /* Pantallas grandes (lg) y extra grandes (xl) */
+  }
+}
+
+.contenido {
+  background-color: beige;
+}
+
+.intereses {
+  background-color: blue;
+}
+
+.estudios {
+  background-color: blueviolet;
+}
+
+.foot {
+  background-color: black;
+  color: antiquewhite;
+}
