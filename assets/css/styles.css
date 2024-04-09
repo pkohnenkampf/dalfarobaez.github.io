@@ -74,7 +74,11 @@
   text-align: center;
   font-weight: bold;
 }
+
 .logo_estudios {
   height: 6rem;
   object-fit: contain;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
 }
