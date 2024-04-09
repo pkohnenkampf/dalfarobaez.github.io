@@ -1,3 +1,12 @@
+:root {
+  --celeste: #c8daf7;
+  --azul_claro: #849ec7;
+  --azul_oscuro: #192048;
+  --texto_blanco: antiquewhite;
+  --tipografia_CV: 'Rift-Bold', sans-serif;
+  --tipografia_titulos: "Montserrat-Regular";
+}
+
 .img_carrusel {
   width: 100%;
   height: 100%;
@@ -22,19 +31,50 @@
   }
 }
 
+.barra {
+  background-color: var(--azul_oscuro);
+  color: var(--texto_blanco);
+  font-family: var(--tipografia_titulos);
+}
+
+.barra h1 {
+  font-family: var(--tipografia_CV);
+}
+
+.link_menu, .link_menu:active, .link_menu:visited, .link_menu:hover, .link_menu:active, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: var(--texto_blanco);
+}
+
 .contenido {
-  background-color: beige;
+  background-color: var(--celeste);
 }
 
 .intereses {
-  background-color: blue;
+  background-color: var(--azul_claro);
 }
 
-.estudios {
-  background-color: blueviolet;
+.intereses h2 {
+  font-family: var(--tipografia_titulos);
 }
 
 .foot {
-  background-color: black;
-  color: antiquewhite;
+  background-color: var(--azul_oscuro);
+  color: var(--texto_blanco);
+  font-family: var(--tipografia_titulos);
+}
+
+.etiqueta {
+  background-color:aliceblue;
+  text-align: justify;
+}
+
+.texto_azul {
+  color: var(--azul_oscuro);
+  font-family: var(--tipografia_titulos);
+  text-align: center;
+  font-weight: bold;
+}
+.logo_estudios {
+  height: 6rem;
+  object-fit: contain;
 }

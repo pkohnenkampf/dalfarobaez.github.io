@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"),
+    url(./Montserrat-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Rift-Bold";
+  src: local("Rift-Bold"), url(./Rift-Bold.otf) format("opentype");
+}
